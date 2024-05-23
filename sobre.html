@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/ETECICON.jpg">
+    <title>História da ETEC</title>
+    <style>
+        .card {
+            margin-top: 1px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-body {
+            padding: 50px;
+        }
+        .quiz-container {
+            margin-top: 20%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .answers label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        #submit {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        #submit:hover {
+            background-color: #45a049;
+        }
+        .results-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        #results {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: rgb(146, 12, 2);
+            padding: 30px 0;
+            text-align: center;
+            color: #fff;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer a:hover {
+            color: #007bff;
+        }
+        .footer p {
+            margin-bottom: 0;
+            color: white;
+        }
+        .navbar-brand a{
+            width: 50%;
+            height: 50%;
+        }
+        .text-white { 
+  color: black !important; 
+}
+img{
+    width: 50%;
+    height: 50%;
+}
+    </style>
+    <script>
+        
+    </script>
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        // Validar os campos do formulário aqui
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+
+        // Verificar se os campos estão preenchidos
+        if (name && email && message) {
+          // Todos os campos estão preenchidos, exibir alerta de sucesso
+          alert("Formulário enviado com sucesso!");
+        } else {
+          // Campos estão vazios, exibir alerta para preencher todos os campos
+          alert("Por favor, preencha todos os campos do formulário.");
+        }
+      });
+    });
+  </script>
+<body>
+
+<div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+</div>
+
+
+
+    <div class="container">
+        <div class="row align-items-center position-relative">
+
+            <div class="col-3">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/ETECICON.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    
+                  </a>
+            </div>
+
+            <div class="col-9 text-right">
+                <span class="d-inline-block d-lg-block"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-white"></span></a></span>
+                <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
+                    <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                        <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                        <li><a href="cursos.html" class="nav-link">Cursos</a></li>
+                        <li><a href="comunidade.html" class="nav-link">Comunidade</a></li>
+                        <li><a href="contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="card mb-3">
+        
+        <div class="card-body">
+          <h5 class="card-title">Primeira ETEC Fundada</h5>
+          <p class="card-text">O CPS criou suas primeiras escolas técnicas em 1988: a Etec São Paulo, conhecida como Etesp, e a Etec de Taquaritinga. A partir de 1994, com a integração de 83 escolas existentes (outras 12 escolas foram incorporadas entre 1981 e 82), a instituição passou oficialmente a responder pelo Ensino Técnico público estadual.</p>
+          
+        </div>
+        <img class="card-img-top" src="images/itazin.jpeg" alt="Imagem de capa do card">
+      </div>
+      <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Missão</h5>
+          <p class="card-text">A missão da ETEC é oferecer educação técnica e tecnológica de qualidade, preparando os alunos para o mercado de trabalho e contribuindo para o desenvolvimento socioeconômico da região.</p>
+        </div>
+        <img class="card-img-bottom" src="images/labo.jpg" alt="Imagem de capa do card">
+      </div>
+          
+          
+        
+      <div class="card mb-3">
+
+        <div class="card-body">
+            <h5 class="card-title">Visão</h5>
+            <p class="card-text">Ser reconhecida como uma instituição de referência em educação técnica e tecnológica, inovando constantemente e mantendo um alto padrão de ensino.</p>
+            
+          </div>
+        <img class="card-img-top" src="images/etec_polivalente_forum.jpg" alt="Imagem de capa do card">
+        
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Valores</h5>
+          <p class="card-text">- Excelência Acadêmica: Compromisso com a qualidade do ensino e a formação integral dos alunos. <br>
+            - Inovação: Fomentar a criatividade e a busca por novas soluções tecnológicas.<br>
+            - Ética e Responsabilidade: Promover uma conduta ética e responsável em todas as atividades.<br>
+            - Sustentabilidade: Incorporar práticas sustentáveis no cotidiano escolar.</p>
+          
+        </div>
+        <img class="card-img-bottom" src="images/VAL.jpg" alt="Imagem de capa do card">
+      </div>
+
+
+
+
+
+<br><br><br><br>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#" class="btn btn-sm btn-outline-light mb-3">Voltar ao Início</a>
+                <p>Vitor Dourado e Lohany Vital 2024 - &copyTodos os direitos reservados
+                    <br>
+                    <center>Trabalho acadêmico - Sem fins lucrativos</p></center>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

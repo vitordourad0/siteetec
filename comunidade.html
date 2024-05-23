@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/ETECICON.jpg">
+    <title>Ações Solidárias da Comunidade ETEC</title>
+    <style>
+        .card {
+            margin-top: 1px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-body {
+            padding: 50px;
+        }
+        .quiz-container {
+            margin-top: 20%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .answers label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        #submit {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        #submit:hover {
+            background-color: #45a049;
+        }
+        .results-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        #results {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: rgb(146, 12, 2);
+            padding: 30px 0;
+            text-align: center;
+            color: #fff;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer a:hover {
+            color: #007bff;
+        }
+        .footer p {
+            margin-bottom: 0;
+            color: white;
+        }
+        .navbar-brand a{
+            width: 50%;
+            height: 50%;
+        }
+        .text-white { 
+  color: black !important; 
+}
+img{
+    width: 50%;
+    height: 50%;
+}
+#lastnotice{
+    text-align: center;
+    margin-top: 20px;
+}
+    </style>
+    <script>
+        
+    </script>
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        // Validar os campos do formulário aqui
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+
+        // Verificar se os campos estão preenchidos
+        if (name && email && message) {
+          // Todos os campos estão preenchidos, exibir alerta de sucesso
+          alert("Formulário enviado com sucesso!");
+        } else {
+          // Campos estão vazios, exibir alerta para preencher todos os campos
+          alert("Por favor, preencha todos os campos do formulário.");
+        }
+      });
+    });
+  </script>
+<body>
+
+<div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+</div>
+
+
+
+    <div class="container">
+        <div class="row align-items-center position-relative">
+
+            <div class="col-3">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/ETECICON.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    
+                  </a>
+            </div>
+
+            <div class="col-9 text-right">
+                <span class="d-inline-block d-lg-block"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-white"></span></a></span>
+                <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
+                    <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                        <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                        <li><a href="cursos.html" class="nav-link">Cursos</a></li>
+                        <li><a href="comunidade.html" class="nav-link">Comunidade</a></li>
+                        <li><a href="contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="images/apae.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Etec Solidária - APAE</h5>
+            <p class="card-text">A comunidade das ETECs se preocupam muito com ações solidárias, sendo parceira da APAE nesse serviço.</p>
+
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/rs.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Preocupação das ETECs com enchente no Rio Grande Do Sul</h5>
+            <p class="card-text">Momento de angústia e medo, mas a ETEC sempre ajudando!</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/ovo.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">ETEC presente em datas comemorativas!</h5>
+            <p class="card-text">Sempre incentivando a empatia, como na páscoa</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <h2 id="lastnotice">Quiz - ETEC</h2>
+      <br><br><br>
+      <div class="quiz-container">
+          <div id="quiz"></div>
+          <button id="submit">Enviar Quiz</button>
+      </div>
+      
+      <div class="results-container">
+          <div id="results"></div>
+      </div>
+      
+      <script>
+          document.addEventListener('DOMContentLoaded', function () {
+              document.getElementById('investmentForm').addEventListener('submit', function (e) {
+                  e.preventDefault();
+                  var investmentAmount = parseFloat(document.getElementById('investmentAmount').value);
+                  var interestRate = 12; // Fixed interest rate
+                  alert("Valor investido. Obrigado por confiar na Dourado's Bank");
+              });
+          });
+          const quizContainer = document.getElementById('quiz');
+          const resultsContainer = document.getElementById('results');
+          const submitButton = document.getElementById('submit');
+      
+          let currentQuestion = 0;
+          let score = 0;
+      
+          function buildQuiz() {
+              const output = [];
+      
+              questions.forEach((currentQuestion, questionNumber) => {
+                  const answers = [];
+      
+                  for (letter in currentQuestion.answers) {
+                      answers.push(
+                          `<label>
+                              <input type="radio" name="question${questionNumber}" value="${letter}">
+                              ${letter} :
+                              ${currentQuestion.answers[letter]}
+                          </label>`
+                      );
+                  }
+      
+                  output.push(
+                      `<div class="question"> ${currentQuestion.question} </div>
+                      <div class="answers"> ${answers.join('')} </div>`
+                  );
+              });
+      
+              quizContainer.innerHTML = output.join('');
+          }
+      
+          function showResults() {
+              resultsContainer.style.display = 'block';
+      
+              const answerContainers = quizContainer.querySelectorAll('.answers');
+      
+              questions.forEach((currentQuestion, questionNumber) => {
+                  const answerContainer = answerContainers[questionNumber];
+                  const selector = `input[name=question${questionNumber}]:checked`;
+                  const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+      
+                  if (userAnswer === currentQuestion.correctAnswer) {
+                      score++;
+                      answerContainer.style.color = 'lightgreen';
+                  } else {
+                      answerContainer.style.color = 'red';
+                  }
+              });
+      
+              resultsContainer.innerHTML = `Score: ${score} out of ${questions.length}`;
+          }
+      
+          submitButton.addEventListener('click', showResults);
+      
+          const questions = [
+              {
+                  question: 'Qual é a instituição responsável pelas ETECs?',
+                  answers: {
+                      a: 'CPS',
+                      b: 'Unicamp',
+                      c: 'USP'
+                  },
+                  correctAnswer: 'a'
+              },
+              {
+                  question: 'Qual é o nome da primeira ETEC fundada??',
+                  answers: {
+                      a: 'ETEC de Taquaritinga',
+                      b: 'ETEC Polivalente de Americana',
+                      c: 'Etec Ferrúcio Humberto Gazzetta'
+                  },
+                  correctAnswer: 'a'
+              },
+              {
+                  question: 'Qual alternativa mostra um curso da ETEC?',
+                  answers: {
+                      a: 'Medicina',
+                      b: 'Técnico em Desenvolvimento de Sistemas',
+                      c: 'Direito'
+                  },
+                  correctAnswer: 'b'
+              }
+          ];
+      
+          buildQuiz();
+      
+      
+          
+      
+                  document.getElementById('verExtratoBtn').addEventListener('click', function () {
+                      // Aqui você pode inserir a lógica para obter o extrato real do usuário
+                      var extratoUsuario = [
+                          "01/05/2024 - Compra - Supermercado - R$ 150,00",
+                          "02/05/2024 - Saque - Caixa Eletrônico - R$ 200,00",
+                          "03/05/2024 - Depósito - Transferência - R$ 1.000,00",
+                          "04/05/2024 - Pagamento - Conta de Luz - R$ 120,00",
+                          "05/05/2024 - Compra - Restaurante - R$ 80,00"
+                      ];
+                      alert("Extrato Bancário:\n\n" + extratoUsuario.join("\n"));
+                  });
+      
+                  
+      </script>
+
+
+
+
+<br><br><br><br>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#" class="btn btn-sm btn-outline-light mb-3">Voltar ao Início</a>
+                <p>Vitor Dourado e Lohany Vital 2024 - &copyTodos os direitos reservados
+                    <br>
+                    <center>Trabalho acadêmico - Sem fins lucrativos</p></center>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
